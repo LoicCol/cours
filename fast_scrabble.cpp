@@ -30,8 +30,6 @@ int main()
     cout<<"Entrez des lettres:"<<endl;
     cin>>input;
 
-    if(in)
-
     transform(input.begin(), input.end(), input.begin(), ::tolower);
     sort(input.begin(), input.end());
     multimap<string, string>::iterator it;
